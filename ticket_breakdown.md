@@ -17,7 +17,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ## Your Breakdown Here
 1. M:N mapping between Facility and Agant
-  1-1 Story
+  * Story
     * Design the schema that can be possible to map the M:N relationship between Facilities adn Agents. This is the historical schama to describe the agent's shifts based on the facilities.
     * Schema: 
     ```typescript
@@ -44,18 +44,18 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
     }
     ```
     * Advanced: Schema should include the `agant_id`, `facility_id` to represent the above schema and required the `created_at` as mandatory field.
-  1-2 Story point: 2
-  1-3 Story type: database design
+  * Story point: 2
+  * Story type: database design
   
 2. Get Available Agants by Failicities `getShiftByFacility`
-  2-1 Story
+  * Story
     * Fetch the data from `facility_agant` by facilities.
     * Data should grouped by facility_id/shift/created_at in range of the quarter with `created_at` field
-  2-2 Story Point: 5
-  1-3 Story type: backend
+  * Story Point: 5
+  * Story type: backend
 
 3. Generate Report
-  3-1 Story
+  * Story
     Formatting the PDF with data layer of the generation logic
-  3-2 Story point: 3
-  3-3 Story type: backend
+  * Story point: 3
+  * Story type: backend
